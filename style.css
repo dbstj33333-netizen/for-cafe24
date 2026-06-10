@@ -57,13 +57,14 @@ img { display: block; width: 100%; height: 100%; object-fit: cover; }
 .section-heading h2 { margin: 0 0 18px; color: var(--navy); font-size: 31px; font-weight: 600; letter-spacing: -1.5px; }
 .section-heading h2 span { display: inline-block; margin: 0 20px; color: #ffc94e; font-size: 25px; }
 .category-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 68px; margin-top: 45px; padding: 0 18px; }
-.category-card { text-align: center; font-size: 14px; transition: transform .35s ease; }
+.category-card { text-align: center; font-size: 14px; transition: color .25s ease, transform .35s ease; }
 .category-card__image { width: 264px; height: 264px; overflow: hidden; margin: 0 auto 17px; background: #f5f1ea; }
 .category-card__image img { transition: transform .4s ease; }
 .category-card__image .image-tableware { object-position: 75% center; }
 .category-card__image .image-decor { object-position: center center; }
 .category-card__image .image-stationery { object-position: 68% center; }
 .category-card:hover { transform: translateY(-12px); }
+.category-card:hover { color: var(--orange); }
 .category-card:hover .category-card__image { filter: drop-shadow(0 12px 12px rgba(87, 113, 140, .18)); }
 .category-card:hover img { transform: scale(1.1); }
 .category-card__image--round { border-radius: 50%; }
