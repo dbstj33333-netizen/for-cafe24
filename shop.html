@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop | Bruna</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fonts-archive/Paperlogy/Paperlogy.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="shop.css" />
+  </head>
+  <body class="shop-page">
+    <header class="header">
+      <div class="header__inner">
+        <a href="index.html" class="logo">Bruna</a>
+        <nav class="nav" aria-label="메인 메뉴">
+          <a class="is-active" href="shop.html">Shop</a>
+          <a href="index.html#lookbook">Review</a>
+          <a href="index.html#brand">Brand</a>
+          <a href="index.html#footer">About</a>
+        </nav>
+        <div class="header__actions">
+          <button aria-label="검색" class="icon-button"><svg><use href="#icon-search" /></svg></button>
+          <button aria-label="마이페이지" class="icon-button"><svg><use href="#icon-user" /></svg></button>
+          <button aria-label="장바구니" class="icon-button"><svg><use href="#icon-bag" /></svg></button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="shop-hero">
+        <div class="container shop-hero__inner">
+          <div class="shop-hero__copy">
+            <p class="eyebrow">Lovely things for every day.</p>
+            <h1>작은 취향을 모아<br />더 다정한 하루로</h1>
+            <p>오래 곁에 두고 싶은 브루나의 새로운 아이템을 만나보세요.</p>
+          </div>
+          <div class="shop-hero__image">
+            <img src="assets/feature-pouch.png" alt="노란 플라워 파우치와 데이지 꽃" />
+          </div>
+          <i class="shop-hero__sparkle">✦</i>
+        </div>
+      </section>
+
+      <section class="section shop-products container">
+        <div class="section-heading">
+          <p class="eyebrow">Bruna Shop</p>
+          <h2><span>✦</span> 오늘의 작은 설렘 <span>✦</span></h2>
+        </div>
+        <div class="shop-tabs" aria-label="상품 카테고리">
+          <button class="is-active">All</button>
+          <button>Tableware</button>
+          <button>Decor</button>
+          <button>Stationery</button>
+          <button>Toy &amp; Doll</button>
+        </div>
+        <div class="product-grid">
+          <article class="product-card">
+            <a class="product-card__image product-card__image--hero" href="#"><img src="assets/hero-bruna.png" alt="체크 머그와 테이블웨어" /></a>
+            <p>Tableware</p><h3>블루 체크 데일리 머그</h3><strong>18,000원</strong>
+          </article>
+          <article class="product-card">
+            <a class="product-card__image product-card__image--pouch" href="#"><img src="assets/feature-pouch.png" alt="노란 플라워 파우치" /></a>
+            <p>Stationery</p><h3>버터 플라워 퀼팅 파우치</h3><strong>24,000원</strong>
+          </article>
+          <article class="product-card">
+            <a class="product-card__image product-card__image--shelf" href="#"><img src="assets/lookbook-shelf.png" alt="꽃병과 버블 캔들" /></a>
+            <p>Decor</p><h3>펄 버블 오브제 캔들</h3><strong>14,000원</strong>
+          </article>
+          <article class="product-card">
+            <a class="product-card__image product-card__image--teddy" href="#"><img src="assets/lookbook-teddy.png" alt="리본을 맨 테디베어 인형" /></a>
+            <p>Toy &amp; Doll</p><h3>블루 리본 테디베어</h3><strong>32,000원</strong>
+          </article>
+          <article class="product-card">
+            <a class="product-card__image product-card__image--room" href="#"><img src="assets/lookbook-room.png" alt="플라워 패브릭 침구" /></a>
+            <p>Fabric</p><h3>데이지 가든 패브릭 블랭킷</h3><strong>38,000원</strong>
+          </article>
+          <article class="product-card">
+            <a class="product-card__image product-card__image--diary" href="#"><img src="assets/hero-bruna.png" alt="파란 플라워 다이어리" /></a>
+            <p>Stationery</p><h3>프레스드 플라워 다이어리</h3><strong>16,000원</strong>
+          </article>
+          <article class="product-card">
+            <a class="product-card__image product-card__image--vase" href="#"><img src="assets/feature-pouch.png" alt="데이지 꽃이 담긴 유리 화병" /></a>
+            <p>Decor</p><h3>맑은 유리 미니 화병</h3><strong>20,000원</strong>
+          </article>
+          <article class="product-card">
+            <a class="product-card__image product-card__image--scrunchie" href="#"><img src="assets/hero-bruna.png" alt="파란 패브릭 스크런치" /></a>
+            <p>Fabric</p><h3>소프트 블루 스크런치</h3><strong>9,000원</strong>
+          </article>
+        </div>
+        <button class="button button--line product-more">상품 더 보기 <b>→</b></button>
+      </section>
+
+      <section class="section shop-curation container">
+        <div class="shop-curation__copy">
+          <p class="eyebrow">Bruna curation</p>
+          <h2>나만의 공간을 위한<br />포근한 조각들</h2>
+          <p>크게 달라지지 않아도 괜찮아요.<br />작은 오브제 하나로 시작해 보세요.</p>
+          <a class="button button--yellow" href="#">Decor 보러 가기 <b>→</b></a>
+        </div>
+        <img src="assets/lookbook-shelf.png" alt="꽃병과 액자가 놓인 선반" />
+      </section>
+    </main>
+
+    <footer id="footer">
+      <div class="footer__inner container">
+        <div><a href="index.html" class="logo">Bruna</a><p>일상을 더 사랑스럽게 만드는 브루나<br />© 2026 Bruna. All rights reserved.</p></div>
+        <div class="subscribe"><h3>신상품 &amp; 혜택 소식 받기</h3><p>이메일로 브루나만의 새 소식을 받아보세요.</p><form><input type="email" placeholder="이메일 주소를 입력하세요." /><button>구독하기</button></form></div>
+        <div class="footer-links"><div><h3>Shop</h3><a href="#">New Arrivals</a><a href="#">Best Sellers</a><a href="#">Tableware</a><a href="#">Home Decor</a></div><div><h3>Customer</h3><a href="#">Notice</a><a href="#">Q&amp;A</a><a href="#">Review</a><a href="#">FAQ</a></div><div><h3>Company</h3><a href="#">About Bruna</a><a href="#">Privacy Policy</a><a href="#">Terms of Service</a></div></div>
+      </div>
+    </footer>
+
+    <svg class="svg-sprite" aria-hidden="true">
+      <symbol id="icon-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6" /><path d="m16 16 4 4" /></symbol>
+      <symbol id="icon-user" viewBox="0 0 24 24"><circle cx="12" cy="7" r="4" /><path d="M4.5 21c.5-4 3-6 7.5-6s7 2 7.5 6" /></symbol>
+      <symbol id="icon-bag" viewBox="0 0 24 24"><path d="M5 8h14l1 13H4L5 8Z" /><path d="M9 8V5a3 3 0 0 1 6 0v3" /></symbol>
+    </svg>
+    <script src="script.js"></script>
+  </body>
+</html>

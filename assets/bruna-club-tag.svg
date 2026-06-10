@@ -1,0 +1,8 @@
+<svg width="220" height="300" viewBox="0 0 220 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>@import url("https://cdn.jsdelivr.net/gh/fonts-archive/Paperlogy/Paperlogy.css");</style>
+  <path d="M120 -12C111 34 127 48 116 84M151 -10C131 34 142 55 131 88" stroke="#7697AC" stroke-width="3" stroke-linecap="round"/>
+  <path d="M70 67L154 81L196 250L33 222L70 67Z" fill="#CFEAFB" stroke="#B5D9EF" stroke-width="2"/>
+  <circle cx="113" cy="91" r="9" fill="#FFF8E8" stroke="#ADC9D9" stroke-width="2"/><path d="M116 83C121 58 124 35 120 8" stroke="#7697AC" stroke-width="3" stroke-linecap="round"/>
+  <g transform="translate(111 149)"><ellipse rx="11" ry="22" transform="translate(0 -22)" fill="#FFFDF7"/><ellipse rx="11" ry="22" transform="rotate(45) translate(0 -22)" fill="#FFFDF7"/><ellipse rx="11" ry="22" transform="rotate(90) translate(0 -22)" fill="#FFFDF7"/><ellipse rx="11" ry="22" transform="rotate(135) translate(0 -22)" fill="#FFFDF7"/><ellipse rx="11" ry="22" transform="rotate(180) translate(0 -22)" fill="#FFFDF7"/><ellipse rx="11" ry="22" transform="rotate(225) translate(0 -22)" fill="#FFFDF7"/><ellipse rx="11" ry="22" transform="rotate(270) translate(0 -22)" fill="#FFFDF7"/><ellipse rx="11" ry="22" transform="rotate(315) translate(0 -22)" fill="#FFFDF7"/><circle r="12" fill="#F2B62C"/></g>
+  <text x="76" y="205" fill="#365D78" font-family="Paperlogy, sans-serif" font-size="18" font-weight="700">Bruna Club</text><text x="101" y="222" fill="#6A8BA0" font-family="Paperlogy, sans-serif" font-size="9" letter-spacing="1">MEMBER</text>
+</svg>
